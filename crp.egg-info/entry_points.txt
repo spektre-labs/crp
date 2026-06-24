@@ -1,0 +1,2 @@
+[console_scripts]
+crp = crp:main

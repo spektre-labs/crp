@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crp"
+version = "0.1.0"
+description = "CRP — the Capability Routing Protocol kernel. TCP/IP for computation / intelligence."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "AGPL-3.0-or-later" }
+authors = [{ name = "Spektre Labs / Lauri Elias Rainio", email = "lauri@spektri.eu" }]
+keywords = ["routing", "protocol", "llm", "capability", "least-cost-routing"]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/spektre-labs/crp"
+
+[project.scripts]
+crp = "crp:main"
+
+[tool.setuptools]
+py-modules = ["crp"]
