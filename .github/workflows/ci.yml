@@ -14,5 +14,5 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
       - run: pip install pytest
-      - run: python crp.py "selftest: route the CAP theorem"
+      - run: python crp.py "selftest route the CAP theorem"
       - run: pytest -q
